@@ -19,7 +19,7 @@ export default function AnyComponent() {
     console.log(interimResult);
     if (interimResult?.toLowerCase().split(" ").pop() === hotword) {
       console.log("HOLY SHIT CHAT");
-      fetch("http://184.162.198.193:3000/yeah");
+      fetch("https://yeah.chromaserver.net/yeah");
     }
   }, [interimResult]);
 
