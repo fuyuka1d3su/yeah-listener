@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import useSpeechToText from "react-hook-speech-to-text";
 
 const hotword = "yeah";
